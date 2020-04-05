@@ -1,0 +1,49 @@
+
+[
+    {
+        "image": "https://media.entertainmentearth.com/assets/images/82f86c732d494085845106b3fe7c906flg.jpg",
+        "elvishName": "Andúril",
+        "weaponType": "Longsword ",
+        "enchantment": "Heir of Man",
+        "orcsFelled": 0,
+        "id": 0
+
+    },
+    {
+        "image": "https://www.reliks.com/products/489/400x225/1.jpg",
+        "elvishName": "Glamdring",
+        "weaponType": "Longsword",
+        "enchantment": "Bright Blue Glow ",
+        "orcsFelled": 0,
+        "id": 1
+
+    },
+    {
+        "image": "https://vignette.wikia.nocookie.net/lotr/images/b/b6/Orcrist_1.JPG/revision/latest/scale-to-width-down/350?cb=20150509115035",
+        "elvishName": "Orcrist",
+        "weaponType": "Shortsword",
+        "enchantment": "Bright Blue Glow ",
+        "orcsFelled": 0,
+        "id": 2
+
+    },
+    {
+        "image": "https://vignette.wikia.nocookie.net/lotr/images/5/5d/Sting_with_scabbard.jpg/revision/latest/scale-to-width-down/350?cb=20140527085852",
+        "elvishName": "Sting",
+        "weaponType": "Dagger",
+        "enchantment": "Cut Through Webs",
+        "orcsFelled": 0,
+        "id": 3
+
+    },
+    {
+        "image": "https://www.toy-palace.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/h/e/herr-der-ringe_-theodens-schwert-herugrim---1_1-replik---96-cm_UCU1370_2_3.jpg",
+        "elvishName": "Gúthwinë",
+        "weaponType": "Longsword",
+        "enchantment": "Sturdy",
+        "orcsFelled": 0,
+        "id": 4
+
+    }
+
+]
