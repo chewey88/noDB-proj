@@ -36,8 +36,8 @@ class Weapon extends Component{
                     <p><span className='label'>Special Property:</span> {weapon.enchantment}</p>
                     <p><span className='label'>Orcs Felled:</span> {weapon.orcsFelled}</p>
                 </div>
-                <div className='cancel-save-bu'>
-                    <input onChange={this.handleChange} type='number'/>
+                <div className='cancel-save-input'>
+                    <input placeholder='Update Orcs Felled' onChange={this.handleChange} type='number'/>
                     <button 
                     onClick={this.toggleEdit}>Cancel
                     </button>
@@ -46,7 +46,8 @@ class Weapon extends Component{
                     </button>
                 </div>
                 <div className='equip-button'>
-                    <button
+                    <button 
+                    className='equip'
                     onClick={() => this.props.equipWeapon(weapon.id)}>Equip Weapon
                  </button>
                 </div>

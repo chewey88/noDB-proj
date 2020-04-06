@@ -10,18 +10,27 @@
 }
 .title-text{
   display: inline-flex;
-  color: red;
+  color: rgb(255, 38, 0);
   font-weight: 800;
-  font-size: 50px;
+  font-size: 60px;
+  font-family: Aladin;
 }
 .forge-button{
   font-size: 20px;
   padding: 20px 30px;
   border-radius: 10px;
-  background-color: rgba(219, 76, 33);
+  background-color: rgb(235, 42, 17);
   font-weight: 600;
   font-family: Aladin;
 
+}
+.forge-inputs > input, button{
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(231, 46, 14, 0.623);
+  font-weight: 600;
+  font-family: Aladin;
 }
 
 .epic-weapons{
@@ -33,7 +42,7 @@
   font-style: cursive;
   height: 200px;
   width: auto;
-  background-color: rgba(236, 170, 84, 0.493) ;
+  background-color: rgba(231, 50, 18, 0.493) ;
   padding: 20px;
   font-size: 15px;
    
@@ -47,6 +56,14 @@
   font-family: Aladin;
 
 }
+.cancel-save-input > input {
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(219, 76, 33, 0.685);
+  font-weight: 600;
+  font-family: Aladin;
+}
 
 .label {
   font-weight: 400;
@@ -56,4 +73,12 @@
 
 .swords{
   width: 200px;
+}
+.equip{
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgba(219, 76, 33);
+  font-weight: 400;
+  font-family: Aladin;
 }

@@ -34,8 +34,9 @@ class ForgeOfRivendell extends Component{
             <div>
                 <button className='forge-button' onClick={() => this.setState({showInputs: true})}>Forge Your Own Weapon</button>
                 {this.state.showInputs ? (
-                    <div>
+                    <div className='forge-inputs'>
                         <input 
+                        placeholder={"Image of Weapon (URL)"}
                         value={this.state.image} onChange={(e) => this.setState({image: e.target.value })} 
                         />
                         <input 
